@@ -319,7 +319,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,1,4);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(6).to({_off:false},0).to({x:364.7},15,cjs.Ease.backOut).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(6).to({_off:false},0).to({x:364.7},15).wait(99));
 
 	// Turning_Stone_Logo
 	this.instance_2 = new lib.TurningStoneLogo_1();
@@ -363,7 +363,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Winners_1024x768_Maryann_atlas_1.png?1615330287868", id:"Winners_1024x768_Maryann_atlas_1"}
+		{src:"images/Winners_1024x768_Maryann_atlas_1.png?1615331863941", id:"Winners_1024x768_Maryann_atlas_1"}
 	],
 	preloads: []
 };
