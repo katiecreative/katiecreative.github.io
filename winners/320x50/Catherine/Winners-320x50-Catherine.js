@@ -27,14 +27,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_26 = function() {
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["Winners_320x50_Catherine_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_25 = function() {
+(lib.CachedBmp_1 = function() {
 	this.initialize(ss["Winners_320x50_Catherine_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -141,7 +141,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_26();
+	this.instance = new lib.CachedBmp_2();
 	this.instance.setTransform(-73.2,-12.2,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -163,7 +163,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_25();
+	this.instance = new lib.CachedBmp_1();
 	this.instance.setTransform(-48.1,-18.2,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -171,29 +171,6 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib._10132, new cjs.Rectangle(-48.1,-18.2,96,36.5), null);
-
-
-(lib.buttonshine_mc = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.lf(["rgba(255,255,255,0)","rgba(255,255,255,0.498)","rgba(255,255,255,0.749)","rgba(255,255,255,0.498)","rgba(255,255,255,0)"],[0,0.357,0.51,0.651,1],-20.5,0,20.6,0).s().p("AjMIKIAAwUIGZAAIAAQUg");
-	this.shape.setTransform(0.1651,0.2595,5.1824,3.315,0,26.2207,-153.7794);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.buttonshine_mc, new cjs.Rectangle(-171.8,-202.1,343.9,404.79999999999995), null);
 
 
 (lib.link_btn = function(mode,startPosition,loop,reversed) {
@@ -296,28 +273,6 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.winner_mc).to({x:65.45},14,cjs.Ease.backOut).wait(106));
 
-	// Mask (mask)
-	var mask = new cjs.Shape();
-	mask._off = true;
-	var mask_graphics_41 = new cjs.Graphics().p("AImj5IQaAAIAAHzIwaAAg");
-	var mask_graphics_61 = new cjs.Graphics().p("AoyDOIAAmbIRlAAIAAGbg");
-
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:null,x:0,y:0}).wait(41).to({graphics:mask_graphics_41,x:160,y:25}).wait(20).to({graphics:mask_graphics_61,x:76.775,y:25.475}).wait(59));
-
-	// Shine
-	this.instance = new lib.buttonshine_mc();
-	this.instance.setTransform(185.3,24.1,0.3094,0.2025,-14.9965,0,0,-24.8,11.3);
-	this.instance.alpha = 0;
-	this.instance._off = true;
-
-	var maskedShapeInstanceList = [this.instance];
-
-	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
-		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
-	}
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(41).to({_off:false},0).to({x:264.35,alpha:0.75},10).to({regX:-24.7,regY:11.1,x:345.3,alpha:0},10).wait(59));
-
 	// Turning_Stone_Logo
 	this.logo_mc = new lib.TurningStoneLogo_1();
 	this.logo_mc.name = "logo_mc";
@@ -333,15 +288,15 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.right).wait(120));
 
 	// Left_Banner
-	this.instance_1 = new lib.LeftBanner();
+	this.instance = new lib.LeftBanner();
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(120));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(120));
 
 	// Catherine
-	this.instance_2 = new lib.Catherine();
-	this.instance_2.setTransform(117,0);
+	this.instance_1 = new lib.Catherine();
+	this.instance_1.setTransform(117,0);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(120));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(120));
 
 	this._renderFirstFrame();
 
@@ -356,7 +311,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Winners_320x50_Catherine_atlas_1.png?1615512907180", id:"Winners_320x50_Catherine_atlas_1"}
+		{src:"images/Winners_320x50_Catherine_atlas_1.png?1615554104524", id:"Winners_320x50_Catherine_atlas_1"}
 	],
 	preloads: []
 };
