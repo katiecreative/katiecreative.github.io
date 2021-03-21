@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"WinnerAlternate_480x320_Catherine_atlas_1", frames: [[482,475,270,87],[0,322,863,151],[0,475,480,152],[0,0,480,320],[482,0,312,269],[796,0,69,55]]}
+		{name:"WinnerAlternate_480x320_Maryann_atlas_1", frames: [[482,475,231,87],[0,322,873,151],[0,475,480,152],[850,0,69,55],[0,0,480,320],[482,0,366,290]]}
 ];
 
 
@@ -27,43 +27,43 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_26 = function() {
-	this.initialize(ss["WinnerAlternate_480x320_Catherine_atlas_1"]);
+(lib.CachedBmp_24 = function() {
+	this.initialize(ss["WinnerAlternate_480x320_Maryann_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_25 = function() {
-	this.initialize(ss["WinnerAlternate_480x320_Catherine_atlas_1"]);
+(lib.CachedBmp_23 = function() {
+	this.initialize(ss["WinnerAlternate_480x320_Maryann_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Banner = function() {
-	this.initialize(ss["WinnerAlternate_480x320_Catherine_atlas_1"]);
+	this.initialize(ss["WinnerAlternate_480x320_Maryann_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CatherineBackgroun = function() {
-	this.initialize(ss["WinnerAlternate_480x320_Catherine_atlas_1"]);
+(lib.Logo = function() {
+	this.initialize(ss["WinnerAlternate_480x320_Maryann_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CatherineTopLayer = function() {
-	this.initialize(ss["WinnerAlternate_480x320_Catherine_atlas_1"]);
+(lib.TS_Maryann_SyracuseNY_40163_FuNanFuNu_088wager_Feb14 = function() {
+	this.initialize(ss["WinnerAlternate_480x320_Maryann_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Logo = function() {
-	this.initialize(ss["WinnerAlternate_480x320_Catherine_atlas_1"]);
+(lib.TS_Maryann_SyracuseNY_40163_FuNanFuNu_088wager_Feb142 = function() {
+	this.initialize(ss["WinnerAlternate_480x320_Maryann_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -85,7 +85,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 
-(lib.CatherineBackgroun_1 = function(mode,startPosition,loop,reversed) {
+(lib.TS_Maryann_SyracuseNY_40163_FuNanFuNu_088wager_Feb142_1 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -97,36 +97,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CatherineBackgroun();
-	this.instance.setTransform(-240,-160);
+	this.instance = new lib.TS_Maryann_SyracuseNY_40163_FuNanFuNu_088wager_Feb142();
+	this.instance.setTransform(-183,-145);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.CatherineBackgroun_1, new cjs.Rectangle(-240,-160,480,320), null);
-
-
-(lib.CatherineTopLayer_1 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.instance = new lib.CatherineTopLayer();
-	this.instance.setTransform(-156,-134.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.CatherineTopLayer_1, new cjs.Rectangle(-156,-134.5,312,269), null);
+}).prototype = getMCSymbolPrototype(lib.TS_Maryann_SyracuseNY_40163_FuNanFuNu_088wager_Feb142_1, new cjs.Rectangle(-183,-145,366,290), null);
 
 
 (lib.Banner_1 = function(mode,startPosition,loop,reversed) {
@@ -185,14 +163,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_26();
-	this.instance.setTransform(-97.65,-27.05,0.4996,0.4996);
+	this.instance = new lib.CachedBmp_24();
+	this.instance.setTransform(-87.75,-27.05,0.4996,0.4996);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Catherinewon, new cjs.Rectangle(-97.6,-27,134.89999999999998,43.4), null);
+}).prototype = getMCSymbolPrototype(lib.Catherinewon, new cjs.Rectangle(-87.7,-27,115.4,43.4), null);
 
 
 (lib._10132 = function(mode,startPosition,loop,reversed) {
@@ -207,14 +185,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_25();
-	this.instance.setTransform(-215.8,-37.7,0.5,0.5);
+	this.instance = new lib.CachedBmp_23();
+	this.instance.setTransform(-218.15,-37.7,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib._10132, new cjs.Rectangle(-215.8,-37.7,431.5,75.5), null);
+}).prototype = getMCSymbolPrototype(lib._10132, new cjs.Rectangle(-218.1,-37.7,436.5,75.5), null);
 
 
 (lib.link_btn = function(mode,startPosition,loop,reversed) {
@@ -242,7 +220,7 @@ p.nominalBounds = new cjs.Rectangle(-239.5,-160,479,320);
 
 
 // stage content:
-(lib.WinnerAlternate480x320Catherine = function(mode,startPosition,loop,reversed) {
+(lib.WinnerAlternate480x320Maryann = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -311,7 +289,7 @@ if (reversed == null) { reversed = false; }
 	this.prize_mc.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,2);
 	this.prize_mc._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.prize_mc).wait(22).to({_off:false},0).to({regX:0.1,regY:7.6,scaleX:0.7529,scaleY:0.7518,x:306.9,y:38.2},28,cjs.Ease.elasticOut).wait(70));
+	this.timeline.addTween(cjs.Tween.get(this.prize_mc).wait(22).to({_off:false},0).to({regX:0.1,regY:7.6,scaleX:0.7529,scaleY:0.7518,x:298.9,y:38.2},28,cjs.Ease.elasticOut).wait(70));
 
 	// Catherine_won
 	this.winner_mc = new lib.Catherinewon();
@@ -322,36 +300,33 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.winner_mc).wait(9).to({_off:false},0).to({regX:-29.9,regY:-0.6,scaleX:0.9999,scaleY:1.0009,x:77.4,y:35.8},15,cjs.Ease.backOut).wait(96));
 
-	// Catherine_Top_Layer
-	this.catherine = new lib.CatherineTopLayer_1();
-	this.catherine.name = "catherine";
-	this.catherine.setTransform(259,185.5);
+	// TS_Maryann_SyracuseNY_$40163_FuNanFuNu_$0_88wager_Feb14_2
+	this.instance = new lib.TS_Maryann_SyracuseNY_40163_FuNanFuNu_088wager_Feb142_1();
+	this.instance.setTransform(243,205);
 
-	this.timeline.addTween(cjs.Tween.get(this.catherine).to({scaleX:1.0961,scaleY:1.0959,x:258.95},119).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleX:1.082,scaleY:1.0819,y:202},119).wait(1));
 
 	// Logo
-	this.instance = new lib.Logo_1();
-	this.instance.setTransform(-417.5,88.5);
+	this.instance_1 = new lib.Logo_1();
+	this.instance_1.setTransform(-417.5,88.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:62.5},24,cjs.Ease.quintOut).wait(96));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({x:62.5},24,cjs.Ease.quintOut).wait(96));
 
 	// Banner
-	this.instance_1 = new lib.Banner_1();
-	this.instance_1.setTransform(-240,76);
+	this.instance_2 = new lib.Banner_1();
+	this.instance_2.setTransform(-240,76);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({x:240},24,cjs.Ease.quintOut).wait(96));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({x:240},24,cjs.Ease.quintOut).wait(96));
 
-	// Catherine_Backgroun
-	this.catherine_1 = new lib.CatherineBackgroun_1();
-	this.catherine_1.name = "catherine_1";
-	this.catherine_1.setTransform(240,160);
+	// TS_Maryann_SyracuseNY_$40163_FuNanFuNu_$0_88wager_Feb14
+	this.instance_3 = new lib.TS_Maryann_SyracuseNY_40163_FuNanFuNu_088wager_Feb14();
 
-	this.timeline.addTween(cjs.Tween.get(this.catherine_1).wait(120));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(120));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-240,151.3,774.3,181.59999999999997);
+p.nominalBounds = new cjs.Rectangle(-240,151.3,766,207.59999999999997);
 // library properties:
 lib.properties = {
 	id: '3D76602F45E84BE08AAECAB2C1C99548',
@@ -361,7 +336,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/WinnerAlternate_480x320_Catherine_atlas_1.png?1616342298686", id:"WinnerAlternate_480x320_Catherine_atlas_1"}
+		{src:"images/WinnerAlternate_480x320_Maryann_atlas_1.png?1616342159597", id:"WinnerAlternate_480x320_Maryann_atlas_1"}
 	],
 	preloads: []
 };
