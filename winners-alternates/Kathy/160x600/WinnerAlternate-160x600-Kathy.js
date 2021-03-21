@@ -301,7 +301,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/WinnerAlternate_160x600_Kathy_atlas_1.png?1616338647002", id:"WinnerAlternate_160x600_Kathy_atlas_1"}
+		{src:"images/WinnerAlternate_160x600_Kathy_atlas_1.png?1616346206301", id:"WinnerAlternate_160x600_Kathy_atlas_1"}
 	],
 	preloads: []
 };
