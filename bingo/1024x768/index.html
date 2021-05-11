@@ -14,7 +14,7 @@
 <title>Bingo-1024x768</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="Bingo-1024x768.js?1620751551998"></script>
+<script src="Bingo-1024x768.js?1620752060756"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -43,7 +43,8 @@ function handleComplete(evt,comp) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
 	exportRoot = new lib.Bingo1024x768();
-	stage = new lib.Stage(canvas);	
+	stage = new lib.Stage(canvas);
+	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
 		stage.addChild(exportRoot);
