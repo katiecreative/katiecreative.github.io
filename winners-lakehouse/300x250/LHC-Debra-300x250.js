@@ -27,21 +27,21 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_23 = function() {
 	this.initialize(ss["LHC_Debra_300x250_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_22 = function() {
 	this.initialize(ss["LHC_Debra_300x250_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
+(lib.CachedBmp_21 = function() {
 	this.initialize(ss["LHC_Debra_300x250_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -230,7 +230,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_6();
+	this.instance = new lib.CachedBmp_23();
 	this.instance.setTransform(-40.15,-7.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -252,7 +252,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_5();
+	this.instance = new lib.CachedBmp_22();
 	this.instance.setTransform(-29.45,-3.6,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -274,7 +274,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_4();
+	this.instance = new lib.CachedBmp_21();
 	this.instance.setTransform(-51.3,-8.85,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -366,7 +366,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.loopNum++;
 		
-		if(this.loopNum==2){
+		if(this.loopNum==3){
 		
 		this.stop();
 		
@@ -487,7 +487,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/LHC_Debra_300x250_atlas_1.png?1622999903347", id:"LHC_Debra_300x250_atlas_1"}
+		{src:"images/LHC_Debra_300x250_atlas_1.png?1623157824454", id:"LHC_Debra_300x250_atlas_1"}
 	],
 	preloads: []
 };

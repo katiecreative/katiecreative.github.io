@@ -27,28 +27,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_26 = function() {
+(lib.CachedBmp_4 = function() {
 	this.initialize(ss["LHC_Debra_1024x768_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_25 = function() {
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["LHC_Debra_1024x768_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_24 = function() {
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["LHC_Debra_1024x768_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_23 = function() {
+(lib.CachedBmp_1 = function() {
 	this.initialize(ss["LHC_Debra_1024x768_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -156,7 +156,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_26();
+	this.instance = new lib.CachedBmp_4();
 	this.instance.setTransform(-154.8,-16.6,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -200,7 +200,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_25();
+	this.instance = new lib.CachedBmp_3();
 	this.instance.setTransform(-164.7,-38.6,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -222,7 +222,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_24();
+	this.instance = new lib.CachedBmp_2();
 	this.instance.setTransform(-120.7,-27.15,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -244,7 +244,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_23();
+	this.instance = new lib.CachedBmp_1();
 	this.instance.setTransform(-202.05,-16.3,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -308,7 +308,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.loopNum++;
 		
-		if(this.loopNum==2){
+		if(this.loopNum==3){
 		
 		this.stop();
 		
@@ -423,7 +423,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/LHC_Debra_1024x768_atlas_1.png?1623002927221", id:"LHC_Debra_1024x768_atlas_1"}
+		{src:"images/LHC_Debra_1024x768_atlas_1.png?1623157706761", id:"LHC_Debra_1024x768_atlas_1"}
 	],
 	preloads: []
 };

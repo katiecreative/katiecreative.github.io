@@ -27,28 +27,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_74 = function() {
+(lib.CachedBmp_38 = function() {
 	this.initialize(ss["YBR_Sandel_480x320_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_73 = function() {
+(lib.CachedBmp_37 = function() {
 	this.initialize(ss["YBR_Sandel_480x320_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_72 = function() {
+(lib.CachedBmp_36 = function() {
 	this.initialize(ss["YBR_Sandel_480x320_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_71 = function() {
+(lib.CachedBmp_35 = function() {
 	this.initialize(ss["YBR_Sandel_480x320_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -198,7 +198,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_74();
+	this.instance = new lib.CachedBmp_38();
 	this.instance.setTransform(-48.85,-14.55,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -220,7 +220,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_73();
+	this.instance = new lib.CachedBmp_37();
 	this.instance.setTransform(-94.35,-31.35,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -242,7 +242,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_72();
+	this.instance = new lib.CachedBmp_36();
 	this.instance.setTransform(-92.6,-24.55,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -264,7 +264,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_71();
+	this.instance = new lib.CachedBmp_35();
 	this.instance.setTransform(-75.2,-17.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -350,7 +350,7 @@ if (reversed == null) { reversed = false; }
 		
 		this.loopNum++;
 		
-		if(this.loopNum==2){
+		if(this.loopNum==3){
 		
 		this.stop();
 		
@@ -495,7 +495,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/YBR_Sandel_480x320_atlas_1.png?1623017018441", id:"YBR_Sandel_480x320_atlas_1"}
+		{src:"images/YBR_Sandel_480x320_atlas_1.png?1623158020381", id:"YBR_Sandel_480x320_atlas_1"}
 	],
 	preloads: []
 };
