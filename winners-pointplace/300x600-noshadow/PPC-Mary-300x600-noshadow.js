@@ -419,7 +419,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/PPC_Mary_300x600_noshadow_atlas_1.png?1623168453932", id:"PPC_Mary_300x600_noshadow_atlas_1"}
+		{src:"images/PPC_Mary_300x600_noshadow_atlas_1.png?1623168612786", id:"PPC_Mary_300x600_noshadow_atlas_1"}
 	],
 	preloads: []
 };
