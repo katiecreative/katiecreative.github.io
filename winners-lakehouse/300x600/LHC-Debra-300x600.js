@@ -27,28 +27,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_20 = function() {
+(lib.CachedBmp_10 = function() {
 	this.initialize(ss["LHC_Debra_300x600_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_19 = function() {
+(lib.CachedBmp_9 = function() {
 	this.initialize(ss["LHC_Debra_300x600_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_18 = function() {
+(lib.CachedBmp_8 = function() {
 	this.initialize(ss["LHC_Debra_300x600_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_17 = function() {
+(lib.CachedBmp_7 = function() {
 	this.initialize(ss["LHC_Debra_300x600_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -153,6 +153,28 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-151,-301,302,602);
 
 
+(lib.Cutout_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.Cutout();
+	this.instance.setTransform(-146.5,-180);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.Cutout_1, new cjs.Rectangle(-146.5,-180,293,360), null);
+
+
 (lib.BET160 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -165,7 +187,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_20();
+	this.instance = new lib.CachedBmp_10();
 	this.instance.setTransform(-1.75,-5.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -187,7 +209,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_19();
+	this.instance = new lib.CachedBmp_9();
 	this.instance.setTransform(-1.65,-3.95,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -209,7 +231,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_18();
+	this.instance = new lib.CachedBmp_8();
 	this.instance.setTransform(2.25,17.8,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -231,7 +253,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_17();
+	this.instance = new lib.CachedBmp_7();
 	this.instance.setTransform(-86.55,-9.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -261,28 +283,6 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.ButtonBG_1, new cjs.Rectangle(-94,-20.5,188,41), null);
-
-
-(lib.Cutout_1 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.instance = new lib.Cutout();
-	this.instance.setTransform(-146.5,-180);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.Cutout_1, new cjs.Rectangle(-146.5,-180,293,360), null);
 
 
 // stage content:
@@ -404,7 +404,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_8 = new lib.Cutout_1();
 	this.instance_8.setTransform(146.5,352);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({scaleX:1.0853,scaleY:1.0853,y:349.5},119).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({scaleX:1.0853,scaleY:1.0853},119).wait(1));
 
 	// Top_Banner_BG
 	this.instance_9 = new lib.TopBannerBG();
@@ -435,7 +435,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/LHC_Debra_300x600_atlas_1.png?1623157810120", id:"LHC_Debra_300x600_atlas_1"}
+		{src:"images/LHC_Debra_300x600_atlas_1.png?1623173375924", id:"LHC_Debra_300x600_atlas_1"}
 	],
 	preloads: []
 };
