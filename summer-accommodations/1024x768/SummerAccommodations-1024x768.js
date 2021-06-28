@@ -3,9 +3,9 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"SummerAccommodations_1024x768_atlas_1", frames: [[0,1390,1217,158],[679,0,898,276],[679,278,898,276],[1026,556,898,276],[1026,834,898,276],[1026,1112,747,276],[901,1125,109,169],[0,1125,899,225],[0,770,1024,353],[1219,1390,640,114],[0,0,677,768],[679,556,263,206]]},
-		{name:"SummerAccommodations_1024x768_atlas_2", frames: [[0,802,899,585],[0,1389,899,585],[1203,0,677,768],[1203,770,677,768],[0,0,1201,800]]},
-		{name:"SummerAccommodations_1024x768_atlas_3", frames: [[0,0,1201,900],[0,902,1203,804]]}
+		{name:"SummerAccommodations_1024x768_atlas_1", frames: [[0,505,1217,158],[0,0,898,276],[900,0,747,276],[1914,0,109,169],[0,278,899,225],[901,278,640,114],[1649,0,263,206]]},
+		{name:"SummerAccommodations_1024x768_atlas_2", frames: [[901,1157,898,276],[901,1435,898,276],[901,1713,898,276],[0,802,899,585],[0,1389,899,585],[901,802,1024,353],[0,0,1201,800]]},
+		{name:"SummerAccommodations_1024x768_atlas_3", frames: [[0,0,1500,1124],[0,1126,1203,804]]}
 ];
 
 
@@ -37,104 +37,83 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_8 = function() {
-	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_7 = function() {
-	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_6 = function() {
-	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_5 = function() {
-	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_4 = function() {
-	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_3 = function() {
 	this.initialize(ss["SummerAccommodations_1024x768_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2 = function() {
-	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1 = function() {
+(lib.CachedBmp_8 = function() {
 	this.initialize(ss["SummerAccommodations_1024x768_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.BottomTanSlantedBox = function() {
-	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Frame1GradientBelowType = function() {
+(lib.CachedBmp_7 = function() {
 	this.initialize(ss["SummerAccommodations_1024x768_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Frame2GradientBelowType = function() {
+(lib.CachedBmp_6 = function() {
+	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_5 = function() {
+	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_4 = function() {
+	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_3 = function() {
 	this.initialize(ss["SummerAccommodations_1024x768_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.CachedBmp_2 = function() {
+	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1 = function() {
+	this.initialize(ss["SummerAccommodations_1024x768_atlas_2"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.BottomTanSlantedBox = function() {
+	this.initialize(ss["SummerAccommodations_1024x768_atlas_2"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.Frame3BookLINKarea = function() {
 	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Frame3GradientBelowType = function() {
-	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Photo011200x900 = function() {
+(lib.Photo011500 = function() {
 	this.initialize(ss["SummerAccommodations_1024x768_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -143,7 +122,7 @@ lib.ssMetadata = [
 
 (lib.Photo021200x800 = function() {
 	this.initialize(ss["SummerAccommodations_1024x768_atlas_2"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -157,7 +136,7 @@ lib.ssMetadata = [
 
 (lib.TSLogoWhite = function() {
 	this.initialize(ss["SummerAccommodations_1024x768_atlas_1"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -225,28 +204,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.Photo02, new cjs.Rectangle(-600.5,-400,1201,800), null);
 
 
-(lib.Photo01 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.instance = new lib.Photo011200x900();
-	this.instance.setTransform(-650,-487.1,1.0824,1.0824);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.Photo01, new cjs.Rectangle(-650,-487.1,1300,974.2), null);
-
-
 (lib.buttonshine_mc = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -296,7 +253,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-513,-385,1026,770);
 
 
-(lib.Gradient = function(mode,startPosition,loop,reversed) {
+(lib.GradientBlock = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -308,14 +265,38 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.Frame1GradientBelowType();
-	this.instance.setTransform(-338.5,-384);
+	this.shape = new cjs.Shape();
+	this.shape.graphics.lf(["#000000","rgba(0,0,0,0)"],[0,1],-512,0,512,0).s().p("EhP/A8AMAAAh3/MCf/AAAMAAAB3/g");
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-512,-384,1024,768);
+
+
+(lib.Brighten = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.Photo011500();
+	this.instance.setTransform(-750,-562);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Gradient, new cjs.Rectangle(-338.5,-384,677,768), null);
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-750,-562,1500,1124);
 
 
 (lib.Frame3GETAWAYTODAY = function(mode,startPosition,loop,reversed) {
@@ -360,28 +341,6 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.Frame3BookLINKarea_1, new cjs.Rectangle(-320,-57,640,114), null);
-
-
-(lib.Frame3GradientBelowType_1 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.instance = new lib.Frame3GradientBelowType();
-	this.instance.setTransform(-338.5,-384);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.Frame3GradientBelowType_1, new cjs.Rectangle(-338.5,-384,677,768), null);
 
 
 (lib.Summer = function(mode,startPosition,loop,reversed) {
@@ -498,28 +457,6 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib._109, new cjs.Rectangle(-197.3,-290.7,418.8,138), null);
-
-
-(lib.Frame2GradientBelowType_1 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.instance = new lib.Frame2GradientBelowType();
-	this.instance.setTransform(-338.5,-384);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.Frame2GradientBelowType_1, new cjs.Rectangle(-338.5,-384,677,768), null);
 
 
 (lib.Resort = function(mode,startPosition,loop,reversed) {
@@ -737,81 +674,67 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(132).to({_off:false},0).to({y:457.95,alpha:1},24,cjs.Ease.cubicOut).wait(204));
 
-	// Frame_3___Gradient_Below_Type
-	this.instance_10 = new lib.Frame3GradientBelowType_1();
-	this.instance_10.setTransform(338.5,384);
+	// Resort
+	this.instance_10 = new lib.Resort();
+	this.instance_10.setTransform(-229.15,286.35,1,1,0,0,0,-17.6,-10.2);
 	this.instance_10.alpha = 0;
+	this.instance_10.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,5,9);
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(239).to({_off:false},0).to({alpha:1},13).wait(108));
-
-	// Photo_3
-	this.instance_11 = new lib.Photo03();
-	this.instance_11.setTransform(699.8,209.6,1.1795,1.1795,0,0,0,1.2,1.2);
-	this.instance_11.alpha = 0;
-	this.instance_11._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(239).to({_off:false},0).to({scaleX:1.1902,scaleY:1.1902,y:205.55,alpha:1},13).to({regX:0.7,regY:0.7,scaleX:1.2784,scaleY:1.2785,x:700.1,y:172.2},107).wait(1));
-
-	// Frame_2___Gradient_Below_Type
-	this.instance_12 = new lib.Frame2GradientBelowType_1();
-	this.instance_12.setTransform(338.5,384);
-	this.instance_12.alpha = 0;
-	this.instance_12._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(119).to({_off:false},0).to({alpha:1},13).to({_off:true},121).wait(107));
-
-	// Photo_2
-	this.instance_13 = new lib.Photo02();
-	this.instance_13.setTransform(539.6,284.15,0.8975,0.8975,0,0,0,0.7,0.6);
-	this.instance_13.alpha = 0;
-	this.instance_13._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(119).to({_off:false},0).to({scaleX:0.9075,scaleY:0.9075,x:541.1,y:279.25,alpha:1},13).to({regX:0,regY:0,scaleX:1,scaleY:1,x:555,y:234.25},120).to({_off:true},1).wait(107));
-
-	// Resort
-	this.instance_14 = new lib.Resort();
-	this.instance_14.setTransform(-229.15,286.35,1,1,0,0,0,-17.6,-10.2);
-	this.instance_14.alpha = 0;
-	this.instance_14.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,5,9);
-	this.instance_14._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(13).to({_off:false},0).to({x:260.05,alpha:1},23,cjs.Ease.cubicOut).to({_off:true},97).wait(227));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(13).to({_off:false},0).to({x:260.05,alpha:1},23,cjs.Ease.cubicOut).to({_off:true},97).wait(227));
 
 	// Awarded
-	this.instance_15 = new lib.Awarded();
-	this.instance_15.setTransform(-229.15,286.35,1,1,0,0,0,-17.6,-10.2);
-	this.instance_15.alpha = 0;
-	this.instance_15.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,5,9);
-	this.instance_15._off = true;
+	this.instance_11 = new lib.Awarded();
+	this.instance_11.setTransform(-229.15,286.35,1,1,0,0,0,-17.6,-10.2);
+	this.instance_11.alpha = 0;
+	this.instance_11.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,5,9);
+	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(6).to({_off:false},0).to({x:260.05,alpha:1},23,cjs.Ease.cubicOut).to({_off:true},104).wait(227));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(6).to({_off:false},0).to({x:260.05,alpha:1},23,cjs.Ease.cubicOut).to({_off:true},104).wait(227));
 
 	// Frame_1___NY_s_Most_Awarded_Resort
-	this.instance_16 = new lib.Frame1NYsMostAwardedResort();
-	this.instance_16.setTransform(-229.15,286.35,1,1,0,0,0,-17.6,-10.2);
-	this.instance_16.alpha = 0;
-	this.instance_16.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,5,9);
+	this.instance_12 = new lib.Frame1NYsMostAwardedResort();
+	this.instance_12.setTransform(-229.15,286.35,1,1,0,0,0,-17.6,-10.2);
+	this.instance_12.alpha = 0;
+	this.instance_12.shadow = new cjs.Shadow("rgba(0,0,0,1)",2,5,9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_16).to({x:260.05,alpha:1},23,cjs.Ease.cubicOut).to({_off:true},110).wait(227));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).to({x:260.05,alpha:1},23,cjs.Ease.cubicOut).to({_off:true},110).wait(227));
 
-	// Frame_1___Gradient_Below_Type
-	this.instance_17 = new lib.Gradient();
-	this.instance_17.setTransform(338.5,384);
-	this.instance_17.alpha = 0.3203;
+	// Gradient
+	this.instance_13 = new lib.GradientBlock();
+	this.instance_13.setTransform(512,384);
+	this.instance_13.alpha = 0.3008;
+	new cjs.ButtonHelper(this.instance_13, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_17).to({_off:true},133).wait(227));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(360));
 
-	// Photo_1
-	this.instance_18 = new lib.Photo01();
-	this.instance_18.setTransform(528,263.5);
+	// Photo_3
+	this.instance_14 = new lib.Photo03();
+	this.instance_14.setTransform(699.8,209.6,1.1795,1.1795,0,0,0,1.2,1.2);
+	this.instance_14.alpha = 0;
+	this.instance_14._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_18).to({regX:0.4,regY:0.7,scaleX:1.1477,scaleY:1.1477,x:553.35,y:258.4},132).to({_off:true},1).wait(227));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(239).to({_off:false},0).to({scaleX:1.1902,scaleY:1.1902,y:205.55,alpha:1},13).to({regX:0.7,regY:0.7,scaleX:1.2784,scaleY:1.2785,x:700.1,y:172.2},107).wait(1));
+
+	// Photo_2
+	this.instance_15 = new lib.Photo02();
+	this.instance_15.setTransform(539.6,284.15,0.8975,0.8975,0,0,0,0.7,0.6);
+	this.instance_15.alpha = 0;
+	this.instance_15._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(119).to({_off:false},0).to({scaleX:0.9075,scaleY:0.9075,x:541.1,y:279.25,alpha:1},13).to({regX:0,regY:0,scaleX:1,scaleY:1,x:555,y:234.25},120).to({_off:true},1).wait(107));
+
+	// Photo_01
+	this.instance_16 = new lib.Brighten();
+	this.instance_16.setTransform(462.6,456.5,0.9153,0.9153,0,0,0,1.8,1.6);
+	new cjs.ButtonHelper(this.instance_16, 0, 1, 1);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_16).to({regX:0,regY:0,scaleX:1,scaleY:1,x:496.85},132).to({_off:true},1).wait(227));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-150,41.2,1618.2,775.8);
+p.nominalBounds = new cjs.Rectangle(-150,41.2,1618.2,977.3);
 // library properties:
 lib.properties = {
 	id: '586BD68D7C6A4B938340210941CBAE8D',
@@ -821,9 +744,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/SummerAccommodations_1024x768_atlas_1.png?1624892278067", id:"SummerAccommodations_1024x768_atlas_1"},
-		{src:"images/SummerAccommodations_1024x768_atlas_2.png?1624892278067", id:"SummerAccommodations_1024x768_atlas_2"},
-		{src:"images/SummerAccommodations_1024x768_atlas_3.png?1624892278067", id:"SummerAccommodations_1024x768_atlas_3"}
+		{src:"images/SummerAccommodations_1024x768_atlas_1.png?1624915074515", id:"SummerAccommodations_1024x768_atlas_1"},
+		{src:"images/SummerAccommodations_1024x768_atlas_2.png?1624915074515", id:"SummerAccommodations_1024x768_atlas_2"},
+		{src:"images/SummerAccommodations_1024x768_atlas_3.png?1624915074516", id:"SummerAccommodations_1024x768_atlas_3"}
 	],
 	preloads: []
 };
