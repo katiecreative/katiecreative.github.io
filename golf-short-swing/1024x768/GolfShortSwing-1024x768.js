@@ -807,7 +807,7 @@ if (reversed == null) { reversed = false; }
 	// Short_Swing
 	this.instance_6 = new lib.ShortSwing();
 	this.instance_6.setTransform(1436.95,227.4,1,0.9999,0,0,0,467.8,186);
-	this.instance_6.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,10);
+	this.instance_6.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,20);
 	this.instance_6._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(200).to({_off:false},0).to({regX:467.6,regY:185.8,scaleY:1,x:511.65},24,cjs.Ease.quintOut).to({_off:true},46).wait(90));
@@ -815,7 +815,7 @@ if (reversed == null) { reversed = false; }
 	// One
 	this.instance_7 = new lib.One();
 	this.instance_7.setTransform(-57.3,235.4,1,1,0,0,0,467.6,185.8);
-	this.instance_7.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,10);
+	this.instance_7.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,20);
 	this.instance_7._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(200).to({_off:false},0).to({x:511.65},24,cjs.Ease.quintOut).to({_off:true},46).wait(90));
@@ -823,7 +823,7 @@ if (reversed == null) { reversed = false; }
 	// Championship
 	this.instance_8 = new lib.Championship();
 	this.instance_8.setTransform(1436.95,227.4,1,0.9999,0,0,0,467.8,186);
-	this.instance_8.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,10);
+	this.instance_8.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,20);
 	this.instance_8._off = true;
 	this.instance_8.cache(-3,-14,941,400);
 
@@ -832,7 +832,7 @@ if (reversed == null) { reversed = false; }
 	// Three
 	this.instance_9 = new lib.Frame310Rounds();
 	this.instance_9.setTransform(-58.25,228.5,1,1,0,0,0,467.6,185.8);
-	this.instance_9.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,10);
+	this.instance_9.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,20);
 	this.instance_9._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(180).to({_off:false},0).to({x:510.7},24,cjs.Ease.quintOut).to({_off:true},66).wait(90));
@@ -967,7 +967,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-246.2,89.2,2181.2,959.5);
+p.nominalBounds = new cjs.Rectangle(-246.2,89.2,2201.2,959.5);
 // library properties:
 lib.properties = {
 	id: 'EF367543DAE24D19B3F34AAD04C73EDC',
@@ -977,7 +977,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/GolfShortSwing_1024x768_atlas_1.png?1625239638221", id:"GolfShortSwing_1024x768_atlas_1"}
+		{src:"images/GolfShortSwing_1024x768_atlas_1.png?1625676591895", id:"GolfShortSwing_1024x768_atlas_1"}
 	],
 	preloads: []
 };
